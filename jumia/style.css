@@ -1,0 +1,14 @@
+.heading1{
+    color: saddlebrown;
+    text-align: center;
+    background-color: black;
+    line-height: 90px;
+}
+#heading2{
+    color: darkslategray;
+    font-family: "DejaVu Sans";
+    text-decoration: underline;
+}
+.paragraph{
+    font-weight: bold;
+}

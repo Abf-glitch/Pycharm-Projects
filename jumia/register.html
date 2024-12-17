@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<!-----box shadow :horizontal offset ,vertical offset, bluriness and colour---->
+<form action="">
+  <legend>CREATE AN ACCOUNT</legend>
+  <label for="fname">Firstname :</label>
+  <input type="text" id="fname" placeholder="Enter Firstname" required="required">
+
+  <br><br>
+
+  <label for="mname">Middlename :</label>
+  <input type="text" id="mname" placeholder="Enter Middlename" required="required">
+
+  <br><br>
+  <label for="sname">Surname :</label>
+  <input type="text" id="sname" placeholder="Enter Surname" required="required">
+
+  <br><br>
+  <label for="email">Email Address :</label>
+  <input type="email" id="email" placeholder="abc@gmail.com" required="required"><!----type  to be email for email validation---->
+
+  <br><br>
+  <label for="contact">Phone Number :</label>
+  <input type="tel" id="contact" placeholder="+254700000000" required="required">
+
+  <br><br>
+  <label for="pwd">Password :</label>
+  <input type="password" id="pwd" placeholder="Password" required="required"><!-----type to be password for confidentiality---->
+
+  <br><br>
+  <label for="photo">Choose an Image :</label>
+  <input type="file" id="photo" required="required">
+
+  <br><br>
+  <label for="yob">Year of Birth :</label>
+  <input type="date" id="yob" required="required">
+
+  <br><br>
+  <p>Choose your favourite football team :</p>
+  <input type="radio" id="manu"><!----radio input for radio button--->
+  <label for="manu">Manchester United</label>
+
+  <br>
+  <input type="radio" id="arsenal">
+  <label for="arsenal">Arsenal</label>
+
+  <br>
+  <input type="radio" id="chel">
+  <label for="chel">Chelsea </label>
+
+  <br><br>
+  <p>Select a programming language :</p>
+  <input type="checkbox" id="python">
+  <label for="python">Python</label>
+
+  <br>
+  <input type="checkbox" id="java">
+  <label for="java">Java</label>
+  <br>
+  <input type="checkbox" id="kot">
+  <label for="kot">Kotlin</label>
+
+  <br><br><!----for drop down menu use select tag---->
+  <label for="nationality">Nationality :</label>
+  <select name="" id="nationality">
+    <option value="country" disabled="disabled">--Choose Nationality--</option><!----disable attribute to disable--->
+    <option value="europe">European</option>
+    <option value="kenya">Kenyan</option>
+    <option value="australia">Australian</option>
+    <option value="tanzania">Tanzanian</option>
+    <option value="egypt">Egyptian</option>
+
+  </select>
+
+  <br><br>
+  <label for="msg">Message :</label><br>
+  <textarea name="" id="msg" cols="40" rows="5" placeholder="Type something here..."></textarea>
+  <br><br>
+  <button type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+</html>

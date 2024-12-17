@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-5">
+
+
+    </div>
+</div>
+<div  class="form-group">
+    <form action="">
+        {{ form.as_p }}
+    </form>
+</div>
+<table class="table table-dark table-striped">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Buttons</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    {% for x in data %}
+    <tr>
+        <td>{{ x.name }}</td>
+        <td>{{ x.email }}</td>
+        <td>{{ x.gender }}</td>
+        <td>{{ x.age }}</td>
+        <td><a href="" class="btn btn-danger" type="button"></a></td>
+        <td><a href="" class="" </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+ <h2>Our Facilities</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias delectus deleniti deserunt distinctio dolorum explicabo facere id illo in iste labore laboriosam magni minus modi molestias natus necessitatibus nemo neque nihil nobis non, numquam, quae quam qui quidem quis ratione reprehenderit saepe tempora tempore ullam vero vitae! Ad asperiores doloremque eligendi iure molestias quas quis recusandae sint, temporibus ut. Ab aliquid atque consequuntur culpa cumque est et eum, fugit hic, minus nemo neque nobis officia possimus quae quasi repudiandae sapiente, similique soluta ullam unde vel veniam vero voluptas voluptatem. Commodi dolor esse modi! Animi fugit minima quibusdam veniam. Aperiam, consequatur cupiditate debitis dicta distinctio dolor ipsam minima nostrum obcaecati quae totam voluptatem voluptatibus? Alias at blanditiis corporis, dolorum eaque eligendi, et explicabo facere itaque, iure libero maiores officiis qui. Aspernatur dicta dolorem, eaque incidunt magnam nobis quaerat repellendus! Aperiam asperiores dignissimos dolore excepturi nemo nihil nulla pariatur ut vero voluptates. Corporis culpa excepturi fuga iste modi necessitatibus nostrum perferendis provident voluptas voluptatem. Autem minima recusandae reiciendis vero voluptatibus! Aut, beatae, corporis culpa dolore eos fugiat ipsa iusto labore nemo repellendus sint tempore veritatis? Adipisci atque blanditiis commodi dignissimos dolor dolorem harum inventore laboriosam minima, molestias nam necessitatibus, nihil non, officia provident quasi quod voluptas voluptatibus. Accusamus architecto autem consectetur deserunt enim facilis, harum incidunt mollitia necessitatibus pariatur placeat quas quasi repellat reprehenderit, sint unde velit! Hic laudantium nobis perspiciatis quod saepe soluta vel. Animi cupiditate minima modi repellendus voluptates.</p>
+<button type="submit" class="btn btn-success">Register</button>
+{% endblock %}

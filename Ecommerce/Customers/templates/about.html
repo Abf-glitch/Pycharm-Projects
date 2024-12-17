@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+<body style="background-color: chocolate">
+<h2>This is About us</h2>
+<div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">ADD CUSTOMER</button>
+    </form>
+</div>
+</body>
+</html>

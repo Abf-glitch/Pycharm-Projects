@@ -1,0 +1,40 @@
+.ye{
+    display: flex;
+    margin: 100px;
+}
+.us{
+    text-align: center;
+    margin-bottom: auto;
+}
+.ur{
+    text-align: center;
+}
+#yt{
+    margin-right: 50px;
+    text-align: center;
+    box-shadow:4px 4px 12px grey ;
+    padding-bottom: 20px;
+
+
+}
+#yr{
+    margin-right: 50px;
+    text-align: center;
+    box-shadow:4px 4px 12px grey ;
+    padding-bottom: 20px;
+}
+#yz{
+    text-align: center;
+    box-shadow:4px 4px 12px grey ;
+    padding-bottom: 20px;
+}
+.rt{
+    color: lightcoral;
+}
+.pie{
+    width: 100%;
+    height: 300px;
+}
+.let{
+    padding: 20px;
+}

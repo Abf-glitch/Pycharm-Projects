@@ -1,0 +1,48 @@
+#division1{
+    background-color: beige;
+    color: black;
+    margin: 30px;
+    padding: 30px;
+}
+#division1:hover{
+    background-color: darkslategray;
+}
+.mydivision{
+    background-color: black;
+    color: beige;
+    padding: 30px;
+    margin-top: 60px;
+}
+.mydivision:hover{
+   background-color: saddlebrown;
+}
+.main{
+    display: flex;
+    margin-top: 50px;
+}
+.course{
+    text-align: center;
+}
+#course1{
+    background-color:darkseagreen;
+    padding: 20px;
+    margin-right: 20px;
+}
+#course2{
+    background-color: khaki;
+    padding: 20px;
+    margin-right: 20px;
+}
+#course3{
+    background-color: paleturquoise;
+    padding: 20px;
+}
+#course1:hover{
+    background-color: darkolivegreen;
+}
+#course2:hover{
+    background-color: #efef21;
+}
+#course3:hover{
+    background-color: teal;
+}

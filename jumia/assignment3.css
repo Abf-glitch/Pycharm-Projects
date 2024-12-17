@@ -1,0 +1,12 @@
+#max {
+    display: grid;
+}
+.words{
+    margin: 50px;
+}
+.pics{
+    float: left;
+    margin:20px;
+    width: 300px;
+    height: 200px;
+}
